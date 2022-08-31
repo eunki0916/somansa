@@ -89,6 +89,9 @@ header nav > ul > li > a:hover {
     font-size: 14px;
     white-space: nowrap;   /* 줄바꿈 금지 */
 }
+.sub a:hover {
+    text-decoration: underline;
+}
 header nav > ul > li:hover .sub {
     display: block;
 }
